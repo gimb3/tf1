@@ -1,82 +1,26 @@
-#titulo-principal{
-    color:darkgoldenrod;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:70px;
-    font-style: oblique;
-    text-align:left;
-}
 
-#subtitulo{
-    color: burlywood;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 65px;
-    font-style: unset;
+  .fondosuperior{ 
+   background-image: url(/Reccetario.html/img/fondoprincipal.jpg);
+
+    height: 50px;
+    width: 100%;
     text-align: center;
+    padding: 5cm 0;
+
+    }
+
+
+    #titulo-principal{
+     color: coral;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:80px;
+     font-style: oblique;
+     text-align: center;
 }
 
-#titulo-alternativo{
-    color: coral;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-style: unset;
-    text-align: left;
-}
-#titulo-alternativo1{
-    color: coral;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-style: unset;
-    text-align: left
-}
-#titulo-alternativo2{
-    color:coral;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-style: unset;
-    text-align: left
-}
-#titulo-alternativo3{
-    color: coral;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-style: unset;
-    text-align: left
-}
-#minititulo1{
-    color: darkgray;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-style: unset;
-    text-align: left;
-    text-decoration: underline;
-}
-#minititulo2{
-    color: darkgray;
-    font-family: 'Times New Roman';
-    font-size: 40px;
-    font-style: unset;
-    text-align: left
-}
 
-.parrafo{color: black;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+ .textoexplicativo1{color: coral;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
-}
-
-#ingredientes{color:chocolate;
-font-size: xx-large;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-align:left;
-
-}
-
-#proximamente{
-color:darkkhaki;
-font-size:x-large;
-font-family: Helvetica;
-text-align: justify;
-}
-#cuerpo{
-    line-height: 60px;
 }
