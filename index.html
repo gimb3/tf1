@@ -1,78 +1,158 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetario argentino</title>
+    <title>Recetario</title>
+    <link= rel="icon" type="image/png" href="img/batido.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./estilo/estilo.css">
 </head>
 
 
-<body id="cuerpo">
-    <h1 id="titulo-principal">Región Noroeste Argentino</h1>
-
-    <h2 id="subtitulo">Chipa</h2>
-
-    <h3 id="titulo-alternativo">Ingredientes</h3>
-    <ul id="ingredientes">
-        <li>1/2 kilo de almidón de mandioca</li>
-        <li>2 cucharaditas de sal</li>
-        <li>1 cucharadita al ras de polvo de hornear</li>
-        <li>500 gramos de queso Mar del Plata</li>
-        <li>100 gramos de queso rallado</li>
-        <li>  3 huevos</li>
-        <li>100 gramos de manteca blanda</li>
-    </ul>
-
-    <h3 id="titulo-alternativo1">Preparación</h3>
-
-            <p class="parrafo"> Tamice sobre la mesa el almidón de mandioca junto con la sal 
-                y el polvo de hornear.
-
-                Haga un hueco en el centro y coloque el queso Mar del Plata
-                en cubitos, el queso rallado, los huevos y la manteca blanda.
+<body>
     
-                Una todo agregando de a poco la leche fría, la cantidad necesaria 
-                como para obtener un bollo pesado, tipo mazacote, lleno de trocitos de queso.
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="batido.png" alt="logo" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recetarios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dulce</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Salado</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Saludable</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
     
-                Divida la masa en pequeñas porciones, déles forma de pancitos, 
-                acomódelos sobre placas enmantecadas y enharinadas.
     
-                Hágales 2 cortes oblícuos a la panza y cocínelos 
-                en horno bien caliente, hasta que el queso se asome. </p>
+     <div class="fondosuperior">
+        <h1 id="titulo-principal">Recetarios 2023</h1>
+      </div>
 
-                <img src="img/chipa.jpg " alt="Para disfrutar con mates" srcset="">
+  </header>
 
+ <section>
 
-
-
-
-<h3 id="titulo-alternativo2">Video explicativo</h3>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FNGDishTqA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </html>
-
-
-
-
-
-                <h3 id="titulo-alternativo3">También te puede interesar...</h3>
-
-                <h4 id="minititulo1">Mitos y leyendas de la región</h4>
-
-
-<iframe src="https://viajesdeunchapin.com/leyendas-argentinas/" frameborder="0"></iframe>
+   <p class="textoexplicativo1">Si te interesa dar los primeros pasos en la cocina, 
+    estas en el lugar correcto
+ 
+    Contamos con las recetas más fáciles y ricas 
+    para que puedas agasajar a tu familia y amigos...
+    O simplemente aprender este hermoso arte para vos!
+    Completas tus datos, realizas el pago, y listo,
+    te llega tu e-book al correo electrónico que ingresaste.
+    Podes elegir entre 3 temas: dulce, salado y saludable
+   </p>
+ 
 
 
 
+ </section>
 
-                <h4 id="minititulo2">Próximas recetas</h4>
 
-                <ol id="proximamente">
-                    <li>Humita en olla con queso gratinado y llajwa</li>
-                    <li>Chafaina</li>
-                    <li>Picante de pollo</li>
-                    <li>Cayote en almíbar</li>
-                </ol>    
+
+  <section>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carro1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carro2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carro3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carro4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+
+  </section>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+ crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+
+
+<footer>
+
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ingresa tu correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Suscribite para recibir novedades</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Comentarios</label>
+          <input type="email" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp" >
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
+      <article> "Todos los derechos reservados 2023" </article>
+</footer>
+
+
+
+</html>
